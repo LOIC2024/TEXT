@@ -1,0 +1,344 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+scroll-behavior: smooth;
+}
+
+   /* header */
+
+header{
+    position:fixed ;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8e6d6;
+}
+
+header .navbar li a:hover{
+    color: rgb(233, 182, 14);
+    border-bottom: 2px solid rgb(233, 182, 14);
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+}
+
+.navbar li{
+    list-style:none ;
+}
+
+.navbar a{
+    color: darkorange;
+    text-decoration: none;
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+
+.btn-reservation{
+    padding: 10px 20px;
+    background: maroon;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
+.btn-reservation:hover{
+    background: green;
+    transition: ease-out;
+}
+
+                            /* millieu */
+.baniere{
+    position: relative;
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baniere .contenu{
+    max-width: 70%;
+    text-align: center;    
+}
+.baniere .contenu h2{
+    color: darkgreen;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.contenu p{
+    color: chocolate;
+    font-size: 1.2em;
+}
+.contenu .btn{
+    font-size: 1.1em;
+    color: blue ;
+    background:darkorange ;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.contenu .btn:hover{
+    background: burlywood;
+}
+.contenu .btn span{
+    font-size: 15px;
+} 
+.btn .jourheur{
+    list-style-type: none;
+    text-align: center;
+    display: none;
+}
+.btn .jourheur li{
+    padding: 1px 5px;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.btn .Men{
+    list-style-type: none;
+    text-align: center;
+    display: none;
+}
+.btn:hover > ul {
+    display: block;
+} 
+.btn .Men li{
+    padding: 1px 5px;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+                      /* ACCEUIL */
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row .col50 h2{
+    margin-bottom: 50px;
+    position: right;
+    color: chocolate;
+    font-size: 40px;
+    font-weight: 100%
+}
+.row .col50 span{
+    color: darkred;
+    font-family: 'calibre';
+    font-size: 100px;
+    font-weight: 100px;
+}
+.row .col50 p{
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    margin-top: 15px;
+    padding: 15px;
+}
+.titre-texte{
+    color: black;
+    font-weight: 2rem;
+    text-transform: capitalize;
+    font-weight: 100px;
+}
+
+                           /* A PROPOS DE NOUS  */
+
+                           .now{
+                            position: relative;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                        }
+                        .col51 h2{
+                            margin-bottom: 50px;
+                            position: right; 
+                            color: chocolate;
+                            font-size: 40px;
+                            font-weight: 100%;
+                            text-align: center;
+                        }
+                        .now .col51 span{
+                            color: darkred;
+                            font-family: 'calibre';
+                            font-size: 100px;
+                            font-weight: 100px;
+                        }
+
+                        .now .col51 img{
+                            width: 1000;
+                            height: 900;
+                        }
+                        .now .col51 p{
+                            font-size: 18px;
+                            font-family: 'Times New Roman';
+                            left: -50%;
+                            color: black;
+                            text-transform: none;
+                            text-align: left;
+                            margin-top: 15px;
+                            padding: 15px;
+                        }
+                        
+
+                                /* RESTO */
+
+
+.titre{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+span{
+    color: darkred;
+    font-family: 'calibre';
+    font-size: 100px;
+    font-weight: 100px;
+}
+.titre h2{
+    margin-bottom: 50px;
+    position: right;
+    color: chocolate;
+    font-size: 40px;
+    font-weight: 100%;
+}
+.Resto .Contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.Resto .Contenu .Boss{
+    width: 400px;
+    margin-top: 20px;
+    border: 20px solid black;
+    box-shadow: 20px 15px 35px #fff(26, 211, 9, 0.8);
+}
+.Resto .Contenu .Boss .inbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.Resto .Contenu .Boss .inbox .img{
+    position: relative;
+    top: 1;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.Resto .Contenu .Boss .text{
+    text-align: center;
+    font-weight: 300px;
+    color: black;
+}
+.Resto .Contenu .Boss .text h3{
+    font-family: 400;
+}
+
+                            /* CONTACT */
+
+.contact .lagos{
+    display: flex;
+    justify-content: center;
+}
+
+.contact .lagos a{
+    position: relative;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-weight: bolder;
+}
+
+.contactform{
+    padding: 25px 50px;
+    background: white;
+    box-shadow: 5px 15px 50px rgb(0, 0, 0);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+}
+
+
+
+.contactform h3{
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contactform .inputboite{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contactform .inputboite input,
+.contactform .inputboite text{
+    width: 100%;
+    border: 1px solid rgb(214, 109, 11);
+    padding: 10px;
+    color: black;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: nome;
+}
+
+.contactform .inputboite input[type="submit"]{
+    font-size: 1em;
+    font-weight: 200;
+    color: cornsilk;
+    background: chocolate;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border:none;
+    transition:0.5s;
+    max-width: 120px;
+    align-items: center;
+    justify-content:center ;
+}
+
+                          /* COPYRIGHT */
+
+.copyright{
+    padding: 20px;
+    border-top: 2px solid black;
+    background: rgb(223, 182, 153);
+    text-align: center;
+}
+.copyright p:nth-child(1){
+    color: black;
+}
+.copyright a{
+    color: black;
+    text-decoration: none;
+    font-style: italic ;
+}
